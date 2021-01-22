@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+
+    <style>
+        h3,
+        h4 {
+            color: black;
+        }
+        
+        .p {
+            color: black;
+        }
+    </style>
+</head>
+
+<body class="w3-black">
+    <!-- side navigation bar -->
+    <nav class="w3-sidebar w3-bar-block w3-center w3-hide-small">
+        <img src="Images/circle-cropped.ico" alt="" style="width: 100%;">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>HOME</p>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>ABOUT</p>
+        </a>
+        <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-eye w3-xxlarge"></i>
+            <p>PHOTOS</p>
+        </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>CONTACT</p>
+        </a>
+    </nav>
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium w3-bar-black" id="myNavbar">
+        <div class="w3-bar w3-black w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+            <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- main page -->
+    <div class="w3-padding-large" id="main">
+        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+            <h2 class="w3-jumbo">Hello!</h2>
+            <h1 class="w3-jumbo"><span>I'm</span> Chandresh Yadav.</h1>
+            <p>Programmer and Web Designer.</p>
+            <img src="Images/first_edit-removebg-preview.png" alt="" class="w3-image" width="992" height="1108">
+        </header>
+
+        <!-- About -->
+        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+
+            <h2 class="w3-text-light-grey">Chandresh Yadav</h2>
+            <hr class="w3-opacity" style="width: 225px;">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio in consequuntur eligendi quod, distinctio recusandae sed vel nemo dignissimos molestias quos assumenda suscipit impedit ipsum, et beatae doloremque? Distinctio, explicabo?Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Odio sequi fugiat unde sint distinctio voluptates laborum doloremque, dicta quo nam tempora ipsa ut libero. Qui et perspiciatis laborum vel magnam!</p>
+            <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+            <p class="w3-wide w3-text-white">C++</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:30px; width: 85%;"></div>
+            </div>
+            <p class="w3-wide w3-text-white">JAVA</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:30px; width: 80%;"></div>
+            </div>
+            <p class="w3-wide w3-text-white">HTML & CSS</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:30px; width: 90%;"></div>
+            </div>
+            <p class="w3-wide w3-text-white">Android</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:30px; width: 55%;"></div>
+            </div>
+            <br>
+            <a href="https://drive.google.com/file/d/1gbnhWeG_2Vep62JmacwBxrh_VdTiolK4/view?usp=sharing">
+                <button class="w3-button w3-light-grey w3-padding-large w3-section">
+                <i class="fa fa-download"></i> Download Resume
+              </button>
+            </a>
+
+            <!-- Projects -->
+            <h3 class="w3-padding-16 w3-text-light-grey">Personal Projects</h3>
+            <div>
+                <div class="row w3-center">
+                    <div class="column">
+                        <div class="card">
+                            <h3>Library Management System</h3>
+                            <img src="Images/Library.jpg" alt="">
+                            <p class="p">This project is msde using C++</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <h3>Salon Management System</h3>
+                            <img src="Images/guilherme-petri-602659-unsplash.jpg" alt="">
+                            <p class="p">This project is made using HTML & CSS</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <h3>Weather Reasoning <br> System</h3>
+                            <img src="Images/fynn-DEnuB_zok9M-unsplash.jpg" alt="" height="183px">
+                            <p class="p">This project is made using Python</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="w3-padding-16 w3-text-light-grey">Education</h3>
+            <div>
+                <div class="row w3-center">
+                    <div class="column">
+                        <div class="card">
+                            <h3>High School <br>2016</h3>
+                            <h4>St. Joseph's School</h4>
+                            <img src="Images/St. Joseph's.jpg" alt="" height="180px">
+                            <p class="p">Percentage: 86.83%</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <h3>Senior Secondary <br>2018</h3>
+                            <h4>St. Joseph's School</h4>
+                            <img src="Images/St. Joseph's.jpg" alt="" height="180px">
+                            <p class="p">Percentage: 77.75%</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <h3>Graduation <br>2018-Present</h3>
+                            <h4>Lovely Professional University</h4>
+                            <img src="Images/lpu.jpg" alt="" height="180px">
+                            <p class="p">CGPA: 8.23</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Photos -->
+                <div class="w3-padding-64 w3-content" id="photos">
+                    <h2 class="w3-text-light-grey">My Photos</h2>
+                    <hr style="width:200px" class="w3-opacity">
+                    <div class="w3-row-padding" style="margin:0 -16px">
+                        <div class="w3-half">
+                            <img src="Images/IMG-20190819-WA0005.jpg" style="width:100%">
+                            <img src="Images/IMG-20190831-WA0029.jpg" style="width:100%">
+                            <img src="Images/IMG-20190831-WA0054.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="w3-half">
+                            <img src="Images/IMG-20190831-WA0055.jpg" style="width:100%">
+                            <img src="Images/IMG_20191018_212030.jpg" style="width:100%">
+                            <img src="Images/IMG_20191018_211528.jpg" style="width:100%">
+                            <img src="Images/IMG-20191027-WA0032.jpg" style="width:100%">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact -->
+                <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+                    <h2 class="w3-text-light-grey">Contact Me</h2>
+                    <hr style="width:200px" class="w3-opacity">
+
+                    <div class="w3-section">
+                        <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Gorakhpur, Uttar Pradesh</p>
+                        <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 6352780623</p>
+                        <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: cky13129@gmail.com</p>
+                    </div><br>
+                    <p>Let's get in touch. Send me a message:</p>
+
+                    <form action="/action_page.php" target="_blank">
+                        <p><input class="w3-input w3-padding-16 w3-margin-bottom" type="text" placeholder="Name" required name="Name"></p>
+                        <p><input class="w3-input w3-padding-16 w3-margin-bottom" type="text" placeholder="Email" required name="Email"></p>
+                        <p><input class="w3-input w3-padding-16 w3-margin-bottom" type="text" placeholder="Subject" required name="Subject"></p>
+                        <p><input class="w3-input w3-padding-16 w3-margin-bottom" type="text" placeholder="Message" required name="Message"></p>
+                        <p>
+                            <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                      <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                        </p>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- Footer -->
+        <footer class="w3-content w3-padding-64 w3-text-white w3-xlarge">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+            <p class="w3-medium">Made by Chandresh Yadav <a href="https://github.com/cky1312" target="_blank" class="w3-hover-text-green">github</a></p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

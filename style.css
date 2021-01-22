@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.w3-sidebar {
+    width: 120px;
+    background-color: #222;
+}
+
+#main {
+    margin-left: 120px;
+}
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0
+    }
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive columns */
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Style the counter cards */
+
+.card {
+    padding: 16px;
+    text-align: center;
+    border-radius: 5%;
+    background-color: #9d7ea5;
+}
+
+.card img {
+    width: 100%;
+}
